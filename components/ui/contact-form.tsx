@@ -127,13 +127,9 @@ export default function ContactForm() {
             Contact our sales team
           </div>
           <div
-            className="
-              
-              py-4
-              text-gray-300
-                    "
+            className="py-4 text-gray-300"
           >
-            Let&apos;s talk about how Bird can help your team work better.
+            Let&apos;s talk about how Royal arc can help your team work better.
           </div>
         </div>
 

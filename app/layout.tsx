@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={urbanist.className}>
-      <NextTopLoader color="white"/>
+      <NextTopLoader color="#9061f9"/>
         {children}
         </body>
     </html>
