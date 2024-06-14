@@ -138,19 +138,19 @@ export default function ContactForm() {
             <form
               onSubmit={form.handleSubmit(onSubmit)}
               className="space-y-4
-            h-full  border rounded-3xl p-10"
+            h-full w-full border rounded-3xl p-10"
             >
               <div className="md:flex items-center gap-6 ">
                 <FormField
                   control={form.control}
                   name="first_name"
                   render={({ field }) => (
-                    <FormItem className="items-center justify-center ">
+                    <FormItem className="items-center justify-center w-full ">
                       <FormLabel className="text-lg  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                         First name *
                       </FormLabel>
                       <FormControl>
-                        <Input {...field} className="md:w-[240px] w-full" />
+                        <Input {...field} className="w-full" />
                       </FormControl>
                     </FormItem>
                   )}
@@ -278,7 +278,7 @@ export default function ContactForm() {
                       Anything else ?
                     </FormLabel>
                     <FormControl>
-                      <Textarea {...field} className="min-w-[350px] md:min-w-[500px]" />
+                      <Textarea {...field} className=" w-full" />
                     </FormControl>
                   </FormItem>
                 )}
